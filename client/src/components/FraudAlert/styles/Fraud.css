@@ -1,0 +1,50 @@
+.fraud{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.alert{
+    width: 785px;
+    background: #FFFAEB;
+    border: 1px solid #FFEF85;
+    border-radius: .25rem;
+    margin: auto;
+    line-height: 1.5;
+    padding: 16px 24px;
+    cursor: pointer;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.querries{
+    margin-bottom: 1px;
+}
+.report{
+    width: fit-content;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom: 2px solid #945E12;
+    color: inherit;
+}
+a{
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.14285714;
+}

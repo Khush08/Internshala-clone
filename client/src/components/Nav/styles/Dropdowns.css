@@ -1,0 +1,104 @@
+.drop{
+    position: absolute;
+    top: 72px;
+    width: 30rem;
+    height: 390px;
+    overflow: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    border-radius: 0.25rem;
+    border-top: transparent;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.drop-t{
+    position: absolute;
+    top: 72px;
+    width: 32rem;
+    height: 390px;
+    overflow: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    border-top: transparent;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.02);
+}
+
+
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    width: 30rem;
+    padding: 2px 0px;
+}
+
+.dropdowns-t{
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    width: 32rem;
+    padding: 2px 0px;
+}
+
+
+.dropdown-list-left{
+    width: 12rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+.dropdown-list-left-t{
+    width: 14rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.dropdown-list-right{
+    overflow-y: scroll;
+    height: 370px;
+    width: 18rem;
+}
+
+.dropdown-left-labels{
+    width: 10rem;
+    padding: 0px;
+    margin: 0px;
+    color: #666666;
+}
+
+.dropdown-left-labels-t{
+    width: 12rem;
+    padding: 0px;
+    margin: 0px;
+    color: #666666;
+}
+
+.dropdown-right-labels {
+    color: #666666;
+}
+.dropdown-left-labels:hover{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #52A9E3;
+    background-color: #008BDC;
+    color: #008BDC;
+    fill: #008BDC;
+}
+.dropdown-left-labels-t:hover{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #52A9E3;
+    background-color: #008BDC;
+    color: #008BDC;
+    fill: #008BDC;
+}
+.dropdown-right-labels:hover{
+    color: #008BDC;
+}
+

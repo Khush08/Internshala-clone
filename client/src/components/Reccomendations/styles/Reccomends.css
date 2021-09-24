@@ -1,0 +1,64 @@
+.reccomends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.reccomends-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.items-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 258px;
+    border: 1px solid #EEE;
+    padding: 15px;
+    padding-top: 19px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+    border-radius: 6px;
+}
+
+.course{
+    text-align: center;
+    min-height: 240px;
+}
+
+.items-card img{
+    max-width: 258px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.duration{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dur-labels-l{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.dur-labels-r{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}

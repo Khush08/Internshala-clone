@@ -1,0 +1,68 @@
+.drop-av{
+    position: absolute;
+    top: 72px;
+    width: 15rem;
+    transform: translateX(-80%);
+    overflow: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    border-top: transparent;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.02);
+}
+.info{
+    padding: 15px 15px;
+}
+.rating-panel{
+    padding: 15px 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    width: 100%;
+    color: #484848;
+}
+.know-more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.rating:hover{
+    color: #008BDC;
+}
+
+.sectional-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #484848;
+}
+.sectional-btns:hover{
+    color: #008BDC;
+}
+
+.hover-labels{
+    padding: 8px 15px;
+    color: #484848;
+}
+
+.hover-labels:hover{
+    color: #008BDC;
+}
+
+.hover-labels-sub{
+    padding: 5px 15px;
+    color: #484848;
+}
+.hover-labels-sub{
+    color: #008BDC;
+}

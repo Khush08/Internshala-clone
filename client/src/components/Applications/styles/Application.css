@@ -1,0 +1,72 @@
+.application{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+.header-app{
+    margin-bottom: 32px;
+}
+
+.table-custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tableContainer{
+    align-self:  center;
+    justify-content: center;
+    padding: 1px 3px;
+}
+.MuiTableHead-root{
+    border-bottom: none;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.badge{
+    width: 150px;
+    text-align: center;
+    border-radius: 10rem;
+    padding: 0.25rem 0.4rem;
+    margin-right: 2px;
+}
+
+.badge.applied{
+    color: #945E12;
+    background-color: #FFFAEB;
+}
+
+.badge.inTouch{
+    background: #EAFCFF;
+    color: #006BC2;
+}
+
+.badge.notSelected{
+    color: #333;
+    background: #F8F8F8;
+}
+.badge.unlikely{
+    color: #333;
+    background: #F8F8F8;
+}
+.table-pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 48px 0px;
+}
